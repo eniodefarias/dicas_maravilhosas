@@ -17,7 +17,7 @@ Compilado de várias dicas e scripts úteis
      ```
 
 ### cortando um trecho do video
- - neste exemplo, eu quero extrair o trecho do tempo 00h00m00s até 00h56m20s e salvá-lo como video2.mp4
+- neste exemplo, eu quero extrair o trecho do tempo 00h00m00s até 00h56m20s e salvá-lo como video2.mp4
   - ```bash
     ffmpeg -i input.mp4 -ss 00:00:00 -t 00:56:20 -c:v copy -c:a copy video2.mp4
     ```
